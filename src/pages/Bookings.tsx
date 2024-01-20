@@ -11,3 +11,5 @@ export const Bookings = () => {
         </Row>
     )
 }
+
+export default Bookings;
