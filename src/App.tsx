@@ -2,12 +2,7 @@ import styled from "styled-components"
 import GlobalStyles from "./styles/GlobalStyles";
 import Button from "./ui/Button";
 import Input from "./ui/Input";
-
-const H1 = styled.h1`
-  font-size: 30px;
-  font-weight: 600;
-  background-color: yellow;
-`;
+import Heading from "./ui/Heading";
 
 const StyledApp = styled.div`
   background-color: orangered;
@@ -20,7 +15,9 @@ function App() {
     <>
       <GlobalStyles />
       <StyledApp>
-        <H1>test</H1>
+        <Heading as="h1">test</Heading>
+        <Heading as="h2">H2</Heading>
+        <Heading as="h3">H3</Heading>
         <Button onClick={() => alert("Check in")}>Check in</Button>
         <Button onClick={() => alert("Check out")}>Check in</Button>
 
