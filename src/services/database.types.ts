@@ -1,3 +1,9 @@
+export type CabinType = Database["public"]["Tables"]["cabins"]["Row"];
+// export type ProfileTypes = Database["public"]["Tables"]["profiles"]["Row"];
+// export interface PostWithAuthor extends Omit<PostType, "author"> {
+//   author: ProfileTypes;
+// }
+
 export type Json =
     | string
     | number
